@@ -1,0 +1,184 @@
+[{
+  "_id": {
+    "$oid": "67bfdec83ef89f5b850cffc4"
+  },
+  "department_id": {
+    "$oid": "67bfdde22e10154e3efb1a6f"
+  },
+  "name": "Pallavi",
+  "dob": {
+    "$date": "1995-03-17T00:00:00.000Z"
+  },
+  "phone": "$2b$10$g27rU8AsZ9Cd3rvxp3pE3Odm0OEw1TUl9fMUVc8oQlzhMmT7ixnbG",
+  "email": "pallavi@gmail.com",
+  "salary": 5000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:40:56.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:40:56.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdeeb3ef89f5b850cffc8"
+  },
+  "department_id": {
+    "$oid": "67bfdde22e10154e3efb1a6f"
+  },
+  "name": "Divya",
+  "dob": {
+    "$date": "1992-03-15T00:00:00.000Z"
+  },
+  "phone": "$2b$10$4BJk/hKYGAwMQSIvk1f7t.MEMsd9FT3KfeT/OmIhiz6LQBtY6zuSq",
+  "email": "divya@gmail.com",
+  "salary": 50000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:41:31.441Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:41:31.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdf183ef89f5b850cffcc"
+  },
+  "department_id": {
+    "$oid": "67bfde022e10154e3efb1a70"
+  },
+  "name": "Pradip",
+  "dob": {
+    "$date": "2001-03-31T00:00:00.000Z"
+  },
+  "phone": "$2b$10$MICtrQKI3UHbEceTDMJCAuPpohtLt773Jhbq9UqzH1X0dcy19t5.6",
+  "email": "p@gmail.com",
+  "salary": 8000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:42:16.584Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:42:16.584Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdf3a3ef89f5b850cffd1"
+  },
+  "department_id": {
+    "$oid": "67bfde022e10154e3efb1a70"
+  },
+  "name": "Meera",
+  "dob": {
+    "$date": "1997-03-31T00:00:00.000Z"
+  },
+  "phone": "$2b$10$nX3u93O.uWqAqcTXJThIb.N9syfdvcAF4vHla7HCHrE9nn.a84LxK",
+  "email": "p1@gmail.com",
+  "salary": 80000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:42:50.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:42:50.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdf633ef89f5b850cffd5"
+  },
+  "department_id": {
+    "$oid": "67bfde1b2e10154e3efb1a71"
+  },
+  "name": "Jay",
+  "dob": {
+    "$date": "2004-03-11T00:00:00.000Z"
+  },
+  "phone": "$2b$10$KYcCr/r7ebOTL4fZJNwKZujXkL2ixb/Se9S46KCd.EdQubBKaJizW",
+  "email": "jay@gmail.com",
+  "salary": 100000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:43:31.981Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:43:31.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdf7e3ef89f5b850cffd9"
+  },
+  "department_id": {
+    "$oid": "67bfde1b2e10154e3efb1a71"
+  },
+  "name": "Sapana",
+  "dob": {
+    "$date": "2000-08-01T00:00:00.000Z"
+  },
+  "phone": "$2b$10$C9RIgIdKHiDFG7FNZIk2gu4NdaKQaYThCKWdlDzxIjxidVloU4KzG",
+  "email": "s@gmail.com",
+  "salary": 15000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:43:58.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:43:58.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdf8b3ef89f5b850cffdd"
+  },
+  "department_id": {
+    "$oid": "67bfde1b2e10154e3efb1a71"
+  },
+  "name": "Shivani",
+  "dob": {
+    "$date": "2000-08-01T00:00:00.000Z"
+  },
+  "phone": "$2b$10$aXgHg6Utgu0t4pj8SjlnyOCx9KEvwKVyOOCVpUg9zH5U7frxx2W6e",
+  "email": "shivani@gmail.com",
+  "salary": 15000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:44:11.609Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:44:11.609Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfdfd53ef89f5b850cffe5"
+  },
+  "department_id": {
+    "$oid": "67bfde1b2e10154e3efb1a71"
+  },
+  "name": "Arati",
+  "dob": {
+    "$date": "2003-12-19T00:00:00.000Z"
+  },
+  "phone": "$2b$10$w.oED2.00d73hFXWJ.rjpuCGt2xFCoosxFi8mTCCb4QJjgB.wz1kS",
+  "email": "arati@gmail.com",
+  "salary": 150000,
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-02-27T03:45:25.080Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T03:45:25.080Z"
+  },
+  "__v": 0
+}]

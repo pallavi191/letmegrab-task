@@ -169,12 +169,27 @@ async function findYoungestEmployee() {
     try {
         const employee = await Employee.aggregate([
                     { $sort: { dob: 1 } },
-                    { $group: { _id: "$department_id", youngest: { $first: { name: "$name", dob: "$dob" } } } },
+                    { $group: { _id: "$department_id", youngestEmp: { $first: { name: "$name", dob: "$dob" } } } },
                 ]);
         return employee;
     } catch (error) {
         return error;
     }
+}
+
+function calculateEmployeeAge(dob) {
+    const birthDate = new Date(dob);
+    const today = new Date();
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    let monthDiff = today.getMonth() - birthDate.getMonth();
+    let dayDiff = today.getDate() - birthDate.getDate();
+
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+        age--;
+    }
+
+    return age;
 }
 
 const EmployeeRepo = {
@@ -190,7 +205,8 @@ const EmployeeRepo = {
     isValidDate,
     findSalaryByDept,
     findSalaryRangeCount,
-    findYoungestEmployee
+    findYoungestEmployee,
+    calculateEmployeeAge
 };
 
 module.exports.EmployeeRepo = EmployeeRepo;

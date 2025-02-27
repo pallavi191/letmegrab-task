@@ -115,13 +115,17 @@ router.get("/statistics", async (req, res) => {
 
         const salaryRangeCount = await EmployeeRepo.findSalaryRangeCount();
 
-        const youngestEmployee = await EmployeeRepo.findYoungestEmployee();
+        const youngestEmployees = await EmployeeRepo.findYoungestEmployee();
+        const employeesWithAge = youngestEmployees.map(emp => ({
+            name: emp.youngestEmp.name,
+            age: EmployeeRepo.calculateEmployeeAge(emp.youngestEmp.dob)
+        }));
 
         res.status(200).json({
             success: true,
             salaryByDept,
             salaryRangeCount,
-            youngestEmployee,
+            employeesWithAge,
         });
     } catch (error) {
         res.status(500).json({ success: false, message: error.message });

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "67bfdde22e10154e3efb1a6f"
+  },
+  "name": "IT",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67bfde022e10154e3efb1a70"
+  },
+  "name": "sales",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67bfde1b2e10154e3efb1a71"
+  },
+  "name": "marketing",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67bfde392e10154e3efb1a72"
+  },
+  "name": "HR",
+  "status": "active"
+}]

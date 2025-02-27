@@ -7,6 +7,16 @@ Available API endpoints:
 
 # GET localhost:3040/api/emp/all-employees - Fetch all employees
 # POST localhost:3040/api/emp/add-employee - Add a new employee
+sample payload for adding employee:
+{
+    "department_id" : "67bfde1b2e10154e3efb1a71",
+    "name": "Arati",
+    "dob": "2003-12-19",
+    "phone": 9476355216,
+    "email": "arati@gmail.com",
+    "salary": 150000,
+    "status": "active"
+}
 # PUT localhost:3040/api/emp/employee/:id - Update employee by ID
 # DELETE localhost:3040/api/emp/employee/:id - Delete employee by ID
 # GET localhost:3040/api/emp/statistics - Retrieve employee statistics
